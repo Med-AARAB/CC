@@ -1,0 +1,17 @@
+package Project;
+
+public class Main {
+	public static void main(String[] args) {
+		Livre livre = new Livre(1, "Livre", "Oussama EL Negraz", "ISBM1");
+		CD cd = new CD(2, "CD", "Oussama EL Negraz", 20.99);
+		
+		
+		// Créer un objet Produit (prd1 par ex), et lui affecter la référence de l’objet		Cd (principe du Polymorphisme), et appeler par la suit la méthode Print (), pour ‘prd1’.
+	
+		Produit prd1 = cd;
+		prd1.print();
+		
+		Produit prd2 = livre;
+		prd2.print();    
+	}
+}

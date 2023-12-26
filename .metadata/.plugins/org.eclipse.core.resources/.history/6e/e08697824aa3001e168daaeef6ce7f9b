@@ -1,0 +1,10 @@
+package Project;
+
+public class Main {
+	public static void main(String[] args) {
+		Livre livre = new Livre(1, "Livre", "Oussama EL Negraz", "ISBM1");
+		Livre cd = new CD(1, "CD", "Oussama EL Negraz", (double)20.5);
+		
+		
+	}
+}
